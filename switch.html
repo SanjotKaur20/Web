@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <style>
+            .p1{ background-color: cadetblue;color:hotpink;font-size: xx-large;font-style: italic;}
+            .p2{background-color: crimson;color: cyan;font-size: x-large;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+            .p3{ background-color: cornflowerblue;color: palevioletred;font-size: larger;font-style: oblique;}        
+        </style>
+        <script>
+            function f1(){
+                x=document.getElementById('i1').getAttribute('class');
+
+             if(x=="p1"){
+                    document.getElementById('i1').setAttribute('class',"p2")
+                }
+              else if(x=="p2"){
+                document.getElementById('i1').setAttribute('class',"p3")
+
+             }
+            else{
+                document.getElementById('i1').setAttribute('class',"p1")
+
+  
+
+             }
+        }
+                
+
+            
+
+        </script>
+
+    </head>
+    <body>
+         <p  id="i1" class="p1"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, debitis dolores quia eum, numquam dolor unde, magnam rerum atque amet iure reprehenderit nesciunt ab consequatur enim? Vel impedit provident odio.</p>
+<button onclick="f1()">SWITCH</button>
+
+        </body>
+</html>

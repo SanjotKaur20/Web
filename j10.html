@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script >
+        function me(){
+            document.getElementById('p1').style.display="block"
+            document.getElementById('p2').style.display="none"
+            document.getElementById('p3').style.display="none"
+
+
+        }
+        function f1(){
+            document.getElementById('p2').style.display="block"
+            document.getElementById('p1').style.display="none"
+
+            document.getElementById('p3').style.display="none"
+
+        }
+        function f2(){
+            document.getElementById('p3').style.display="block"
+            document.getElementById('p1').style.display="none"
+            document.getElementById('p2').style.display="none"
+
+        }
+        function hi(){
+            document.getElementById('p1').style.display="none"
+
+            document.getElementById('p2').style.display="none"
+
+            document.getElementById('p3').style.display="none"
+
+        }
+    </script>
+</head>
+<body>
+    <p id="p1" style="display: None;">My name is sanjot .I am btech cse student</p>
+    <p id="p2" style="display: None;">My name is anureet.I am btech cse student</p>
+    <p id="p3" style="display: None;">My name is saloni.I am btech cse student</p>
+    <button onclick="me()"> Button 1</button>
+    <button onclick="f1()"> Button 2</button>
+    <button onclick="f2()"> Button 3</button>
+    <button onclick="hi()">Hide</button>
+
+    
+</body>
+</html>

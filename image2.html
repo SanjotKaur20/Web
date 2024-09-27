@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <style>
+            .dv{ height: 50%;width: 100%;float: left; margin-left: 20%; margin-top: 2%;}
+        </style>
+        <script>
+            function f1(){
+                document.getElementById('ii1').setAttribute('src',"img2.jpg")
+            
+            }
+            function f2(){
+                document.getElementById('ii1').setAttribute('src',"img3.jpg")
+            
+            }
+            function f3(){
+                document.getElementById('ii1').setAttribute('src',"img4.jpg")
+            
+            }
+            function f4(){
+                document.getElementById('ii1').setAttribute('src',"img1.jpg")
+            
+            }
+            function f5(){
+                document.getElementById('ii1').setAttribute('src',"fax.jpg")
+            
+            }
+            function f6(){
+                document.getElementById('ii1').setAttribute('src',"location.png")
+            
+            }
+            function f7(){
+                document.getElementById('ii1').setAttribute('src',"mail.png")
+            
+            }
+            function f8(){
+                document.getElementById('ii1').setAttribute('src',"telephone.png")
+            
+            }
+        </script>
+
+
+    </head>
+    <body>
+        <div>
+           <center>
+            <img  id="ii1"  style="height: 600px; width: 600px;"></center>
+
+        </div>
+        <div class="dv">
+            <img id="i1" src="img2.jpg"style="height: 100px; width: 100px;"  onclick="f1()">
+            <img id="i2" src="img3.jpg"  style="height: 100px; width: 100px;"onclick="f2()">
+            <img id="i3" src="img4.jpg" style="height: 100px; width: 100px;" onclick="f3()">
+            <img id="i4" src="img1.jpg"style="height: 100px;width: 100px;" onclick="f4()">
+            <img id="i5" src="fax.jpg"style="height: 100px;width: 100px;" onclick="f5()">
+            <img id="i6" src="location.png"style="height: 100px;width: 100px;" onclick="f6()">
+            <img id="i7" src="mail.png"style="height: 100px;width: 100px;" onclick="f7()">
+            <img id="i8" src="telephone.png"style="height: 100px;width: 100px;" onclick="f8()">
+        </div>
+    </body>
+</html>

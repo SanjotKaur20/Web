@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script >
+        function ff(){
+            x=document.getElementById('a1').hasAttribute('type')
+            alert(x)
+
+        }
+        function ff1(){
+            y=document.getElementById('a1').getAttribute('href')
+            alert(y)
+
+
+        }
+        function f3(){
+            document.getElementById('a1').setAttribute('href',"http://www.instagram.com")
+
+        }
+    </script>
+</head>
+<body>
+    <a id="a1" href="http://www.facebook.com" target="_blank" title="open facebook page in new tab then clk">facebook</a>
+    <button onclick="ff()">has Attribute</button>
+    <button onclick="ff1()">get Attribute</button>
+    <button onclick="f3()">set Attribute</button>
+    
+</body>
+
+</html>

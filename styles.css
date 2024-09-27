@@ -1,0 +1,65 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.sidebar h3 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.sidebar .section {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.sidebar .section img {
+  width: 100%;
+  height: auto;
+}
+
+.sidebar .section .overlay {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.trainer-profile {
+  text-align: left;
+}
+
+.trainer-name {
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.specialty {
+  color: #e74c3c;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #e74c3c;
+  display: inline-block;
+}
+
+.profile-text {
+  color: #555;
+  font-size: 1rem;
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+
+.cta {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+}

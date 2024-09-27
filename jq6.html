@@ -1,0 +1,67 @@
+<html>
+    <head>
+       
+                <script src="jquery-3.7.1.min.js"></script>
+
+        <script>
+            $('document').ready(function(){
+                $('#b1').click(function(){
+                 x=$('input').val();
+                 alert(x)   
+
+                })
+                $('#b2').click(function(){
+                 x=$('div').css('height');
+                 alert(x) 
+                })
+                $('#b3').click(function(){
+                 x=$('h1').text();
+                 alert(x) 
+                })
+                $('#b4').click(function(){
+                 x=$('p').html();
+                 alert(x)
+                })
+                $('#b5').click(function(){
+                 $('input').val('shine');
+                  
+
+                })
+                $('#b6').click(function(){
+                $('div').css('height',"500px");
+                 
+                })
+                $('#b7').click(function(){
+                 $('h1').text("Welcome");
+                  
+                })
+                $('#b8').click(function(){
+                 $('p').html('hello <u> data </u>  field');
+                 
+                })   
+     
+  
+  
+
+            });
+        </script>
+
+
+    </head>
+    <body>
+        <button id="b1">get value</button>
+        <button id="b2">get css</button>
+        <button id="b3">get text</button>
+        <button id="b4">get HTML</button>
+        <button id="b5"> set value</button>
+        <button id="b6">set css</button>
+        <button id="b7">set text</button>
+        <button id="b8">set HTML</button>
+
+
+      <input type="text">
+      <div style="background-color: springgreen; height: 100px;width: 129px;"></div>
+      <h1>Hello</h1>
+      <p>Lorem ipsum dolor,<i> sit amet consectetur adipisicing </i>elit.<b> Et numquam error eum corporis blanditiis</b> excepturi qui eveniet accusamus illo in. Tenetur, tempora <u>rem. Minima in, reprehenderit consequatur</u> ex autem consectetur.</p>
+    </body>
+</html>

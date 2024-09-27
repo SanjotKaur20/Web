@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <script src="jquery-3.7.1.min.js"></script>
+        <script>
+            $('document').ready(function(){
+                      $('#n1,#n2').blur(function(){
+                    x=$('#n1').val();
+                    console.log(x)
+                    y=$('#n2').val();
+                    res=parseInt(x)+parseInt(y);
+                   $('#sum').val(res)
+                })
+                
+
+            });
+
+                
+        </script>
+       
+
+
+    </head>
+    <body>
+        <label>Number 1</label>
+        <input type="text" id="n1"><br/>
+ 
+        <label>Number 2</label>
+        <input type="text" id="n2"><br/>
+        <label>Sum</label>
+        <input type="text " id="sum"><br/>
+    </body>
+</html>

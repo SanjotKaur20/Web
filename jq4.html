@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <style>
+            div{height: 200px;width: 200px;margin: 10px;background-color: crimson;}
+        </style>
+                <script src="jquery-3.7.1.min.js"></script>
+
+        <script>
+            $('document').ready(function(){
+                $('#b1').click(function(){
+                    $('.dv1').fadeOut();
+                    $('.dv2').fadeOut('slow');
+                    $('.dv3').fadeOut(4000);
+
+
+                })
+                $('#b2').click(function(){
+                    $('.dv1').fadeIn();
+                    $('.dv2').fadeIn('slow');
+                    $('.dv3').fadeIn(4000);
+                })
+                $('#b3').click(function(){
+                    $('.dv1').fadeToggle();
+                    $('.dv2').fadeToggle('slow');
+                    $('.dv3').fadeToggle(4000);
+                })
+
+            });
+        </script>
+
+    </head>
+    <body>
+        <button id="b1">Fade Out</button>
+        <button id="b2"> Fade In</button>
+        <button id="b3">Fade Toggle</button>
+        <div class="dv1"></div>
+        <div class="dv2"></div>
+        <div class="dv3"></div>
+        </body>
+</html>
